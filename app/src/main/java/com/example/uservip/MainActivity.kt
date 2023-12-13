@@ -42,7 +42,9 @@ class MainActivity : ComponentActivity() {
     }
 
     fun initUI(){
-        btnContinue.setOnClickListener { accessToDetail()}
+        btnContinue.setOnClickListener {
+            accessToDetail()
+        }
     }
 
     fun accessToDetail(){
